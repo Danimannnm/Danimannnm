@@ -4,7 +4,6 @@
 
 I am a final-year **Software Engineering** student at **FAST NUCES** with professional experience in **3D Computer Vision** and **Full-Stack Development**. I specialize in building secure, scalable microservices, orchestrating containerized deployments, and developing agentic AI systems.
 
-- 🔭 **I’m currently working on:** Advanced **3D Point Cloud Analysis** using Deep Learning.
 - 👯 **I’m looking to collaborate on:** Open-source **DevOps** tools, **AI Agents**, and **Secure Messaging** protocols.
 - 🛠 **Deep Dive:** I love mixing **Formal Methods** (Z3 Solver) with modern software engineering to verify code correctness.
 - 📫 **Reach me at:** [adnankhaliq252@gmail.com](mailto:adnankhaliq252@gmail.com)
