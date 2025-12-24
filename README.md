@@ -1,4 +1,4 @@
-# Hi there, I'm Adnan Khaliq! 👋
+# Hi there, I'm Adnan Khaliq! 
 
 ### Software Engineer | AI/ML Enthusiast | DevOps Practitioner
 
@@ -11,7 +11,7 @@ I am a final-year **Software Engineering** student at **FAST NUCES** with profes
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | **Category** | **Technologies** |
 | :--- | :--- |
@@ -23,7 +23,7 @@ I am a final-year **Software Engineering** student at **FAST NUCES** with profes
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
@@ -35,7 +35,7 @@ I am a final-year **Software Engineering** student at **FAST NUCES** with profes
 
 ---
 
-## 📈 GitHub Stats
+##  GitHub Stats
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=Danimannnm&show_icons=true&theme=radical&hide_border=true" alt="Adnan's GitHub stats" />
