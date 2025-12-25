@@ -1,53 +1,181 @@
-# Hi there, I'm Adnan Khaliq! 
-
-### Software Engineer | AI/ML Enthusiast | DevOps Practitioner
-
-I am a final-year **Software Engineering** student at **FAST NUCES** with professional experience in **3D Computer Vision** and **Full-Stack Development**. I specialize in building secure, scalable microservices, orchestrating containerized deployments, and developing agentic AI systems.
-
-- 👯 **I’m looking to collaborate on:** Open-source **DevOps** tools, **AI Agents**, and **Secure Messaging** protocols.
-- 🛠 **Deep Dive:** I love mixing **Formal Methods** (Z3 Solver) with modern software engineering to verify code correctness.
-- 📫 **Reach me at:** [adnankhaliq252@gmail.com](mailto:adnankhaliq252@gmail.com)
-
----
-
-## Tech Stack
-
-| **Category** | **Technologies** |
-| :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=mysql&logoColor=white) |
-| **AI & ML** | ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure_AI-0078D4?style=flat&logo=microsoft-azure&logoColor=white) |
-| **Web Dev** | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) |
-| **DevOps** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) ![Nginx](https://img.shields.io/badge/-NGINX-009639?style=flat&logo=nginx&logoColor=white) |
-| **Security** | ![Web Crypto API](https://img.shields.io/badge/-Web_Crypto_API-333333?style=flat) ![JWT](https://img.shields.io/badge/-JWT-000000?style=flat&logo=json-web-tokens&logoColor=white) ![Z3 Solver](https://img.shields.io/badge/-Z3_Solver-0D47A1?style=flat) |
-
----
-
-##  Featured Projects
-
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **3D Point Cloud Analysis** | **AI/ML:** Pipeline for 3D segmentation & relabeling of spatial data using **KPConv** and **CloudCompare**. | `PyTorch` `Python` `CloudCompare` |
-| **Purrrfect Match** | **Full-Stack & DevOps:** MERN stack app with a full **Kubernetes** deployment (Ingress, ConfigMaps) & **CI/CD** pipelines. | `React` `Node.js` `Kubernetes` `Docker` |
-| **Disaster Response Agent** | **AI Agent:** Autonomous resource allocation agent using **Mathematical Optimization (PuLP)** and interactive maps. | `Python` `Streamlit` `PuLP` `API` |
-| **Secure E2EE Messaging** | **Security:** Zero-knowledge messaging system with **AES-256-GCM** encryption and **ECDH** key exchange. | `React` `Web Crypto API` `Node.js` |
-| **Formal Verification Tool** | **Research:** GUI tool verifying program correctness & equivalence using **SSA** form and **Z3 SMT Solver**. | `Python` `Z3` `Tkinter` |
-
----
-
-##  GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Danimannnm&show_icons=true&theme=radical&hide_border=true" alt="Adnan's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danimannnm&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
-
----
+<div align="center">
+  <img src="assets/arcade-header.svg" alt="Adnan Khaliq — Cyber Neon Pixel Banner" width="100%" />
+</div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mianadnankhaliq">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="Connect on LinkedIn" />
-  </a>
-  <a href="mailto:adnankhaliq252@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail" alt="Email Me" />
-  </a>
+  <a href="https://www.linkedin.com/in/mianadnankhaliq">LinkedIn</a> ·
+  <a href="mailto:adnankhaliq252@gmail.com">Email</a> ·
+  <a href="https://github.com/Danimannnm">GitHub</a>
+</p>
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+<h2 align="center">AI / ML ENGINEER</h2>
+
+<p align="center">
+  <code>SOFTWARE ENGINEER</code>
+  <code>AI</code>
+  <code>PYTORCH</code>
+  <code>POINT CLOUDS</code>
+  <code>CLOUD ML</code>
+</p>
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+## ABOUT
+<div align="right">
+  <img src="assets/pixel-sprite.svg" width="42" />
+</div>
+
+I build practical AI systems with a focus on computer vision and 3D point clouds.  
+My work usually starts with messy datasets and ends with trained models, evaluated results, and usable demos.
+
+I care about clean data pipelines, honest evaluation, and making model behavior visible through tooling and dashboards.
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+## TOP FOCUS
+
+| AREA                     | WHAT I WORK ON                              | WHY IT MATTERS                       |
+|--------------------------|---------------------------------------------|--------------------------------------|
+| 3D Computer Vision       | Point clouds, segmentation, spatial learning | Real-world geometry is hard          |
+| Applied Machine Learning | Training, evaluation, ML pipelines           | Models must generalize               |
+| Industrial CV            | Detection, benchmarking, cloud ML platforms  | Production constraints matter        |
+| Tooling & Visualization  | Dashboards, model inspection tools           | Visibility beats blind metrics       |
+| Full-Stack Integration   | APIs, auth, cloud services, deployment       | Models need real users               |
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+## TOOLBOX
+**ML / CV**  
+PyTorch · TensorFlow/Keras · Image Processing · 3D Point Clouds  
+
+**BACKEND / FULL-STACK**  
+Node.js · Express · React · REST APIs  
+
+**CLOUD / DEVOPS**  
+Azure · AWS · basic GCP · Docker · Kubernetes · CI/CD exposure  
+
+**DATABASES**  
+MongoDB · MySQL · SQL Server  
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,js,nodejs,react,express,java,spring,mongodb,mysql,docker,kubernetes,azure,aws,git&perline=8" />
+</div>
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+## WHAT I’M LOOKING FOR
+AI / ML internships or early-career roles focused on computer vision, 3D vision, or applied deep learning — teams where models touch real data and results actually matter.
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+## GITHUB SIGNAL
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Danimannnm&show_icons=true&hide_title=true&include_all_commits=true&rank_icon=github" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Danimannnm" height="160" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danimannnm&layout=compact&langs_count=10" height="140" />
+</div>
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+## FEATURED PROJECTS
+
+<details>
+<summary><b>[3D] POINT CLOUD SEGMENTATION</b></summary>
+
+> **WHAT IT DOES**  
+> Prepares, segments, and relabels 3D point cloud data for deep learning workflows.
+
+> **TECH STACK**  
+> PyTorch · KPConv · CloudCompare · Python
+
+> **WHY IT’S INTERESTING**  
+> 3D data is noisy and sparse; preprocessing quality directly impacts training stability.
+
+> **OUTCOME**  
+> Reliable segmentation masks and improved consistency on complex spatial datasets.
+</details>
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+<details>
+<summary><b>[CV] INDUSTRIAL OBJECT DETECTION — CLOUD BENCHMARKING</b></summary>
+
+> **WHAT IT DOES**  
+> Evaluates cloud-based object detection platforms on the same industrial dataset.
+
+> **TECH STACK**  
+> Azure Custom Vision · Google Vertex AI · Roboflow · Python · Web dashboard
+
+> **WHY IT’S INTERESTING**  
+> Accuracy alone isn’t enough — training speed, dataset handling, and iteration cost matter.
+
+> **OUTCOME**  
+> Recommended Azure Custom Vision based on accuracy, efficiency, and operational fit.
+</details>
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+<details>
+<summary><b>[ML] NEURAL FORECASTING PIPELINE</b></summary>
+
+> **WHAT IT DOES**  
+> Forecasts next-day stock prices using neural models and time-aware evaluation.
+
+> **TECH STACK**  
+> Python · Neural Networks · Technical Indicators · Streamlit
+
+> **WHY IT’S INTERESTING**  
+> Most forecasting demos cheat — this pipeline avoids look-ahead bias.
+
+> **OUTCOME**  
+> Interactive dashboard comparing models, error metrics, and simple trading simulations.
+</details>
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+<details>
+<summary><b>[FULL-STACK] PURRRFECT MATCH — MERN</b></summary>
+
+> **WHAT IT DOES**  
+> Animal adoption platform with secure authentication and media handling.
+
+> **TECH STACK**  
+> MongoDB · Express · React · Node.js · OAuth · JWT · Cloudinary · PostMark
+
+> **WHY IT’S INTERESTING**  
+> Demonstrates end-to-end system design beyond isolated ML experiments.
+
+> **OUTCOME**  
+> Fully functional app with clean UX and production-style integrations.
+</details>
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+<p align="center">
+  <sub>pixel-inspired · terminal-minded · built to ship</sub>
 </p>
