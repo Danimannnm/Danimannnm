@@ -16,9 +16,9 @@
 
 <p align="center">
   <span style="color:#22d3ee"><code>SOFTWARE ENGINEER</code></span>
-  <span style="color:#06b6d4"><code>AI</code></span>
+  <span style="color:#06b6d4"><code>AI / ML</code></span>
   <span style="color:#7c3aed"><code>PYTORCH</code></span>
-  <span style="color:#22d3ee"><code>POINT CLOUDS</code></span>
+  <span style="color:#22d3ee"><code>DATA PIPELINES</code></span>
   <span style="color:#06b6d4"><code>CLOUD ML</code></span>
 </p>
 
@@ -31,10 +31,11 @@
   <img src="assets/pixel-sprite.svg" width="42" />
 </div>
 
-I build practical AI systems with a focus on computer vision and 3D point clouds.  
-My work usually starts with messy datasets and ends with trained models, evaluated results, and usable demos.
+I build **applied AI and machine learning systems** — from raw data and feature engineering to trained models, evaluation, and deployment-ready prototypes.
 
-I care about clean data pipelines, honest evaluation, and making model behavior visible through tooling and dashboards.
+My experience spans **computer vision, forecasting, data analysis, and full ML pipelines**, with a strong emphasis on writing code that is **measurable, debuggable, and useful beyond notebooks**.
+
+I care about clean data flows, correct experimental design, and turning models into tools people can actually interact with.
 
 <div align="center">
   <img src="assets/neon-line.svg" width="100%" />
@@ -42,24 +43,28 @@ I care about clean data pipelines, honest evaluation, and making model behavior 
 
 ## TOP FOCUS
 
-| AREA                     | WHAT I WORK ON                              | WHY IT MATTERS                       |
-|--------------------------|---------------------------------------------|--------------------------------------|
-| 3D Computer Vision       | Point clouds, segmentation, spatial learning | Real-world geometry is hard          |
-| Applied Machine Learning | Training, evaluation, ML pipelines           | Models must generalize               |
-| Industrial CV            | Detection, benchmarking, cloud ML platforms  | Production constraints matter        |
-| Tooling & Visualization  | Dashboards, model inspection tools           | Visibility beats blind metrics       |
-| Full-Stack Integration   | APIs, auth, cloud services, deployment       | Models need real users               |
+| AREA                     | WHAT I WORK ON                                        | WHY IT MATTERS                         |
+|--------------------------|--------------------------------------------------------|----------------------------------------|
+| Applied AI / ML          | Model training, evaluation, experimentation             | Correct decisions need reliable models |
+| Data Pipelines           | Ingestion, preprocessing, feature engineering           | Garbage in = garbage out               |
+| Computer Vision          | Detection, segmentation, spatial & image-based models   | High-impact real-world applications    |
+| Forecasting & Time Series| Time-aware modeling, indicators, evaluation             | Most demos get this wrong              |
+| Tooling & Visualization  | Dashboards, analysis tools, model inspection             | Visibility beats blind accuracy        |
+| Systems & Integration    | APIs, auth, cloud services, deployment                  | Models must live in systems            |
 
 <div align="center">
   <img src="assets/neon-line.svg" width="100%" />
 </div>
 
 ## TOOLBOX
-**ML / CV**  
-PyTorch · TensorFlow/Keras · Image Processing · 3D Point Clouds  
+**AI / ML**  
+PyTorch · TensorFlow/Keras · Deep Learning · Model Evaluation · Feature Engineering  
+
+**DATA & ANALYSIS**  
+Pandas · NumPy · Time Series · Visualization · APIs / Scraping  
 
 **BACKEND / FULL-STACK**  
-Node.js · Express · React · REST APIs  
+Node.js · Express · React · REST APIs · Auth (JWT / OAuth)  
 
 **CLOUD / DEVOPS**  
 Azure · AWS · basic GCP · Docker · Kubernetes · CI/CD exposure  
@@ -76,29 +81,28 @@ MongoDB · MySQL · SQL Server
 </div>
 
 ## WHAT I’M LOOKING FOR
-AI / ML internships or early-career roles focused on computer vision, 3D vision, or applied deep learning — teams where models touch real data and results actually matter.
+AI / ML internships or early-career roles where I can work on **real datasets**, **end-to-end pipelines**, and **applied machine learning problems** — especially in environments that value correct evaluation and production-minded thinking.
 
 <div align="center">
   <img src="assets/neon-line.svg" width="100%" />
 </div>
 
-
 ## FEATURED PROJECTS
 
 <details>
-<summary><b>[3D] POINT CLOUD SEGMENTATION</b></summary>
+<summary><b>[AI / ML] END-TO-END ML PIPELINES & EXPERIMENTATION</b></summary>
 
 > **WHAT IT DOES**  
-> Prepares, segments, and relabels 3D point cloud data for deep learning workflows.
+> Designs and evaluates machine learning pipelines covering data ingestion, preprocessing, training, and evaluation.
 
 > **TECH STACK**  
-> PyTorch · KPConv · CloudCompare · Python
+> Python · PyTorch · Feature Engineering · Evaluation Metrics
 
 > **WHY IT’S INTERESTING**  
-> 3D data is noisy and sparse; preprocessing quality directly impacts training stability.
+> Most ML issues come from pipeline mistakes, not model choice.
 
 > **OUTCOME**  
-> Reliable segmentation masks and improved consistency on complex spatial datasets.
+> Reproducible experiments with clear performance comparisons and reliable results.
 </details>
 
 <div align="center">
@@ -109,16 +113,16 @@ AI / ML internships or early-career roles focused on computer vision, 3D vision,
 <summary><b>[CV] INDUSTRIAL OBJECT DETECTION — CLOUD BENCHMARKING</b></summary>
 
 > **WHAT IT DOES**  
-> Evaluates cloud-based object detection platforms on the same industrial dataset.
+> Benchmarks cloud-based object detection systems using a shared industrial dataset.
 
 > **TECH STACK**  
-> Azure Custom Vision · Google Vertex AI · Roboflow · Python · Web dashboard
+> Azure Custom Vision · Google Vertex AI · Roboflow · Python · Dashboard UI
 
 > **WHY IT’S INTERESTING**  
-> Accuracy alone isn’t enough — training speed, dataset handling, and iteration cost matter.
+> Real deployments care about iteration speed, dataset handling, and cost — not just accuracy.
 
 > **OUTCOME**  
-> Recommended Azure Custom Vision based on accuracy, efficiency, and operational fit.
+> Identified the most practical platform based on accuracy, efficiency, and workflow fit.
 </details>
 
 <div align="center">
@@ -126,19 +130,19 @@ AI / ML internships or early-career roles focused on computer vision, 3D vision,
 </div>
 
 <details>
-<summary><b>[ML] NEURAL FORECASTING PIPELINE</b></summary>
+<summary><b>[ML] NEURAL FORECASTING & TIME-SERIES ANALYSIS</b></summary>
 
 > **WHAT IT DOES**  
-> Forecasts next-day stock prices using neural models and time-aware evaluation.
+> Forecasts next-day stock prices using neural models with proper time-aware validation.
 
 > **TECH STACK**  
 > Python · Neural Networks · Technical Indicators · Streamlit
 
 > **WHY IT’S INTERESTING**  
-> Most forecasting demos cheat — this pipeline avoids look-ahead bias.
+> Many forecasting demos leak future data — this pipeline avoids that entirely.
 
 > **OUTCOME**  
-> Interactive dashboard comparing models, error metrics, and simple trading simulations.
+> Interactive dashboard comparing models, error metrics, and trading simulations.
 </details>
 
 <div align="center">
@@ -146,19 +150,40 @@ AI / ML internships or early-career roles focused on computer vision, 3D vision,
 </div>
 
 <details>
-<summary><b>[FULL-STACK] PURRRFECT MATCH — MERN</b></summary>
+<summary><b>[FULL-STACK / WEB] APMC JUDGING PLATFORM</b></summary>
 
 > **WHAT IT DOES**  
-> Animal adoption platform with secure authentication and media handling.
+> A complete web-based judging platform where users can submit entries, reviewers can evaluate them, and results are processed and displayed through a structured workflow.
+
+> **TECH STACK**  
+> React · Node.js · Backend APIs · Database · Auth · System Design
+
+> **WHY IT’S INTERESTING**  
+> Judging platforms are state-heavy systems — handling submissions, roles, evaluation logic, and result consistency requires careful backend design, not just UI work.
+
+> **OUTCOME**  
+> Fully functional end-to-end system with a clean frontend, reliable backend logic, and well-defined judging workflows.
+</details>
+
+
+<div align="center">
+  <img src="assets/neon-line.svg" width="100%" />
+</div>
+
+<details>
+<summary><b>[FULL-STACK] PURRRFECT MATCH — SYSTEM DESIGN & INTEGRATION</b></summary>
+
+> **WHAT IT DOES**  
+> Full-stack web platform with authentication, media handling, and backend services.
 
 > **TECH STACK**  
 > MongoDB · Express · React · Node.js · OAuth · JWT · Cloudinary · PostMark
 
 > **WHY IT’S INTERESTING**  
-> Demonstrates end-to-end system design beyond isolated ML experiments.
+> Demonstrates how ML systems eventually fit into real applications.
 
 > **OUTCOME**  
-> Fully functional app with clean UX and production-style integrations.
+> Production-style app with clean UX and robust backend integration.
 </details>
 
 <div align="center">
@@ -166,7 +191,7 @@ AI / ML internships or early-career roles focused on computer vision, 3D vision,
 </div>
 
 ## CONTACT ME
-If you’re building in **Computer Vision**, **3D**, or **Applied ML**, I’m always down to talk — internships, collabs, or just swapping ideas.
+If you’re working on **AI**, **machine learning**, **data**, or **applied systems**, I’m always open to conversations — internships, collaborations, or technical discussions.
 
 <p align="center">
   <a href="mailto:adnankhaliq252@gmail.com">
@@ -179,7 +204,6 @@ If you’re building in **Computer Vision**, **3D**, or **Applied ML**, I’m al
     <img alt="GitHub" src="https://img.shields.io/badge/GITHUB-Danimannnm-111827?style=for-the-badge&logo=github&logoColor=ffffff" />
   </a>
 </p>
-
 
 <p align="center">
   <sub>Mian Adnan Khaliq</sub>
