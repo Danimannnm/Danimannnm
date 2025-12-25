@@ -82,18 +82,6 @@ AI / ML internships or early-career roles focused on computer vision, 3D vision,
   <img src="assets/neon-line.svg" width="100%" />
 </div>
 
-## GITHUB SIGNAL
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Danimannnm&show_icons=true&hide_title=true&include_all_commits=true&rank_icon=github" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Danimannnm" height="160" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danimannnm&layout=compact&langs_count=10" height="140" />
-</div>
-
-<div align="center">
-  <img src="assets/neon-line.svg" width="100%" />
-</div>
-
 ## FEATURED PROJECTS
 
 <details>
