@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <!-- Arcade palette -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120000"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="glowRed" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowYellow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.0" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Pixel-ish scanline pattern -->
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="3" fill="rgba(255,255,255,0.00)"/>
+      <rect y="3" width="6" height="3" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+
+    <!-- Tiny "pixel" noise dots -->
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect x="2" y="3" width="2" height="2" fill="rgba(255,212,0,0.12)"/>
+      <rect x="14" y="8" width="2" height="2" fill="rgba(204,0,0,0.16)"/>
+      <rect x="8" y="18" width="2" height="2" fill="rgba(255,212,0,0.10)"/>
+    </pattern>
+
+    <!-- Pixel font fallback stack (GitHub renders) -->
+    <style>
+      .pix {
+        font-family: "Press Start 2P", "VT323", monospace;
+        letter-spacing: 2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)" opacity="0.9"/>
+
+  <!-- Scanlines (animated subtle flicker) -->
+  <g opacity="0.9">
+    <rect width="1200" height="320" fill="url(#scan)">
+      <animate attributeName="opacity" values="0.75;0.92;0.75" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Top HUD -->
+  <g transform="translate(36,36)">
+    <text class="pix" x="0" y="0" fill="#FFD400" font-size="14" filter="url(#glowYellow)">
+      INSERT COIN
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+
+    <text class="pix" x="920" y="0" fill="#CC0000" font-size="14" text-anchor="end" filter="url(#glowRed)">
+      PLAYER 1
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.1s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Big animated name (pixel + glow + shimmer) -->
+  <g transform="translate(70,150)">
+    <!-- Shadow -->
+    <text class="pix" x="0" y="0" fill="#000000" font-size="46" opacity="0.7" transform="translate(4,5)">
+      ADNAN KHALIQ
+    </text>
+
+    <!-- Main text -->
+    <text class="pix" x="0" y="0" fill="#FFD400" font-size="46" filter="url(#glowYellow)">
+      ADNAN KHALIQ
+      <!-- shimmer pulse -->
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="1.8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Red outline-ish duplicate slightly offset (fake stroke, very arcade) -->
+    <text class="pix" x="0" y="0" fill="#CC0000" font-size="46" opacity="0.7" filter="url(#glowRed)" transform="translate(2,2)">
+      ADNAN KHALIQ
+      <animate attributeName="opacity" values="0.55;0.85;0.55" dur="1.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text class="pix" x="2" y="48" fill="#FFD400" font-size="14" opacity="0.95">
+      AI/ML • 3D COMPUTER VISION • FULL-STACK
+    </text>
+  </g>
+
+  <!-- Moving coin (pixel circle + blink) -->
+  <g transform="translate(980,86)" filter="url(#glowYellow)">
+    <rect x="-14" y="-14" width="28" height="28" fill="#FFD400"/>
+    <rect x="-10" y="-10" width="20" height="20" fill="#CC0000" opacity="0.25"/>
+    <rect x="-6" y="-6" width="12" height="12" fill="#FFD400"/>
+
+    <!-- coin bob -->
+    <animateTransform attributeName="transform" type="translate"
+      values="980 86;980 78;980 86" dur="0.9s" repeatCount="indefinite"/>
+
+    <!-- coin sparkle -->
+    <animate attributeName="opacity" values="1;0.55;1" dur="0.7s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Tiny spaceship (pixel art) moving left-right -->
+  <g id="ship" filter="url(#glowRed)">
+    <g transform="translate(150,250)">
+      <!-- ship body -->
+      <rect x="0" y="6" width="12" height="6" fill="#CC0000"/>
+      <rect x="12" y="3" width="9" height="12" fill="#FFD400"/>
+      <rect x="21" y="6" width="12" height="6" fill="#CC0000"/>
+      <!-- cockpit -->
+      <rect x="14" y="6" width="5" height="4" fill="#000000" opacity="0.7"/>
+      <!-- thruster flicker -->
+      <rect x="-4" y="7" width="4" height="4" fill="#FFD400">
+        <animate attributeName="width" values="3;6;3" dur="0.18s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 900 0; 0 0" dur="6.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Floating pixels (parallax-ish) -->
+  <g opacity="0.8">
+    <rect x="120" y="80" width="3" height="3" fill="#FFD400">
+      <animate attributeName="y" values="80;70;80" dur="2.0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="420" y="240" width="3" height="3" fill="#CC0000">
+      <animate attributeName="y" values="240;225;240" dur="2.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="760" y="60" width="3" height="3" fill="#FFD400">
+      <animate attributeName="y" values="60;50;60" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1080" y="220" width="3" height="3" fill="#CC0000">
+      <animate attributeName="y" values="220;205;220" dur="2.3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Bottom "ground" bar -->
+  <rect x="0" y="300" width="1200" height="20" fill="#111111"/>
+  <g opacity="0.9">
+    <rect x="0" y="300" width="1200" height="2" fill="#FFD400"/>
+    <rect x="0" y="318" width="1200" height="2" fill="#CC0000"/>
+  </g>
+
+</svg>
