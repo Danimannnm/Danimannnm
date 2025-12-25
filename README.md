@@ -15,11 +15,11 @@
 <h2 align="center">AI / ML ENGINEER</h2>
 
 <p align="center">
-  <code>SOFTWARE ENGINEER</code>
-  <code>AI</code>
-  <code>PYTORCH</code>
-  <code>POINT CLOUDS</code>
-  <code>CLOUD ML</code>
+  <span style="color:#22d3ee"><code>SOFTWARE ENGINEER</code></span>
+  <span style="color:#06b6d4"><code>AI</code></span>
+  <span style="color:#7c3aed"><code>PYTORCH</code></span>
+  <span style="color:#22d3ee"><code>POINT CLOUDS</code></span>
+  <span style="color:#06b6d4"><code>CLOUD ML</code></span>
 </p>
 
 <div align="center">
@@ -81,6 +81,7 @@ AI / ML internships or early-career roles focused on computer vision, 3D vision,
 <div align="center">
   <img src="assets/neon-line.svg" width="100%" />
 </div>
+
 
 ## FEATURED PROJECTS
 
@@ -164,6 +165,22 @@ AI / ML internships or early-career roles focused on computer vision, 3D vision,
   <img src="assets/neon-line.svg" width="100%" />
 </div>
 
+## CONTACT ME
+If you’re building in **Computer Vision**, **3D**, or **Applied ML**, I’m always down to talk — internships, collabs, or just swapping ideas.
+
 <p align="center">
-  <sub>pixel-inspired · terminal-minded · built to ship</sub>
+  <a href="mailto:adnankhaliq252@gmail.com">
+    <img alt="Email" src="https://img.shields.io/badge/EMAIL-adnankhaliq252%40gmail.com-06b6d4?style=for-the-badge&logo=gmail&logoColor=ffffff" />
+  </a>
+  <a href="https://www.linkedin.com/in/mianadnankhaliq">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-mianadnankhaliq-7c3aed?style=for-the-badge&logo=linkedin&logoColor=ffffff" />
+  </a>
+  <a href="https://github.com/Danimannnm">
+    <img alt="GitHub" src="https://img.shields.io/badge/GITHUB-Danimannnm-111827?style=for-the-badge&logo=github&logoColor=ffffff" />
+  </a>
+</p>
+
+
+<p align="center">
+  <sub>Mian Adnan Khaliq</sub>
 </p>
